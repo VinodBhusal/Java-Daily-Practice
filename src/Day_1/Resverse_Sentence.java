@@ -3,7 +3,7 @@ package Day_1;
 public class Resverse_Sentence {
 
 	public static void main(String[] args) {
-		String str = "my name is vinod";
+		String str = "civic";
 		String rstr = "";
 		char ch;
 
@@ -13,6 +13,12 @@ public class Resverse_Sentence {
 			rstr = ch + rstr;
 
 		}
-		System.out.println(rstr);
+		if(str.equals(rstr)) {
+			System.out.println("matched");
+		}
+		else{
+			System.out.println("not a palindrome");
+		}
+		
 	}
 }
