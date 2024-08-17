@@ -1,4 +1,4 @@
-package Day_1;
+package Java_Daily;
 
 public class Resverse_Sentence {
 
